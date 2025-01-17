@@ -84,10 +84,11 @@ header {
 #projects {
   padding: 2rem 1rem;
   background-color: #fff;
+  text-align: center;
 }
 
-#projects h2 {
-  text-align: center;
+#projects h1 {
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
@@ -100,13 +101,23 @@ header {
   gap: 1rem;
 }
 
+.projects-list li {
+  background: #f4f4f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 5px;
+  text-align: left;
+}
+
 .projects-list a {
   text-decoration: none;
-  color: #333;
+  color: #007bff;
+  font-weight: bold;
 }
 
 .projects-list a:hover {
-  color: #007bff;
+  text-decoration: underline;
 }
 
 /* Contact Section */
