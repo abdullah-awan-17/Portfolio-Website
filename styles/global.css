@@ -32,6 +32,11 @@ header {
   text-decoration: underline;
 }
 
+.nav-list .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* About Section */
 #about {
   text-align: center;
